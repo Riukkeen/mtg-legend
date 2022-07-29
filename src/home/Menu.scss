@@ -1,0 +1,27 @@
+@media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
+    .wrapper-menu {
+        align-items: center;
+        background-color: #000;
+        display: flex;
+        flex-flow: row nowrap;
+        height: 100px;
+        justify-content: space-between;
+        width: 100%;
+
+        .icon-logo-menu {
+            align-items: center;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            width: 100px;
+        }
+
+        .icon-info-menu {
+            align-items: center;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            width: 100px;
+        }
+    }
+}

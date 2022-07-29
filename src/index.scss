@@ -1,0 +1,30 @@
+@import './home/Home.css';
+@import './home/Menu.css';
+@import './home/Seacher.css';
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+
+    .col-100 {
+        width: 100%;
+    }
+
+    .col-50 {
+        width: calc(100% / 2);
+    }
+
+    .col-33 {
+        width: calc(100% / 3);
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 767px) {}
