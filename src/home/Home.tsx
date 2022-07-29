@@ -1,7 +1,5 @@
 import React from 'react'
 import useRandomBackground from '../hooks/useRandomBackground'
-import '../index.css'
-import Menu from './Menu'
 import Seacher from './Seacher'
 
 const Home = () => {
@@ -9,7 +7,6 @@ const Home = () => {
 
   return (
     <div className='wrapper-home' style={{ backgroundImage: image }}>
-      <Menu />
       <Seacher />
     </div>
   )
