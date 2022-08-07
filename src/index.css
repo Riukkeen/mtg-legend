@@ -2,15 +2,20 @@
 @import './menu/Menu.css';
 @import './menuNavigation/MenuNavigation.css';
 @import './home/Seacher.css';
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .container .row {
+  position: relative;
   display: flex;
   height: 100%;
-  position: relative;
+  min-height: 100%;
   width: 100%;
 }
 .container .row .col-100 {

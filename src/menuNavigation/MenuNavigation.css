@@ -1,5 +1,15 @@
 @media only screen and (min-device-width: 1px) and (max-device-width: 767px) {
   .wrapper-menu-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    width: 100%;
+  }
+  .wrapper-menu-navigation .menu-navigation {
+    z-index: 1;
     align-items: center;
     background-color: #000;
     display: flex;
@@ -11,7 +21,7 @@
     bottom: 0;
     left: 0;
   }
-  .wrapper-menu-navigation .icon-manu-navigation {
+  .wrapper-menu-navigation .menu-navigation .icon-manu-navigation {
     align-items: center;
     display: flex;
     height: 100%;
